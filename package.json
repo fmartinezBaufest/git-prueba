@@ -1,0 +1,24 @@
+{
+  "name": "git-repo1",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "index.html",
+  "scripts": {
+  "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmartinezBaufest/git-prueba.git"
+  },
+  "author": "fer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmartinezBaufest/git-prueba/issues"
+  },
+  "homepage": "https://github.com/fmartinezBaufest/git-prueba#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
